@@ -43,6 +43,7 @@ button:active {
   padding: 1rem;
   border-radius: 5px;
   color: #e8e8e8;
+  max-height: 15rem;
 }
 input {
   padding: 0.5rem;
