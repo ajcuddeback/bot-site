@@ -50,14 +50,18 @@ function displayData() {
         const nameElement = document.createElement("h2");
         const jobElement = document.createElement("h2");
         const ageElement = document.createElement("h2");
+        const div = document.createElement('div');
+        div.className = "data-container";
 
         nameElement.innerHTML = `Name: ${element.firstName}`;
         jobElement.innerHTML = `Phone: ${element.job}`;
         ageElement.innerHTML = `Age: ${element.age}`;
 
-        dataDiv.append(nameElement);
-        dataDiv.append(jobElement);
-        dataDiv.append(ageElement);
+        div.append(nameElement);
+        div.append(jobElement);
+        div.append(ageElement);
+
+        dataDiv.append(div);
     })
 }
 

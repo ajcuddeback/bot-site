@@ -6,24 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bot Site</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <button class="add">Click me to add 1!</button>
-    <button class="subtract">Click me to subtract 1!</button>
-    <span class="number">0</span>
+    <div class="counter-wrapper">
+        <div class="button-div">
+            <button class="add">Click me to add 1!</button>
+            <button class="subtract">Click me to subtract 1!</button>
+        </div>
+        <h3>Counter: <span class="number">0</span></h3>
+    </div>
 
-    <form class="form">
-        <label for="name-input">Name:</label>
-        <input type="text" class="name-input">
-        <label for="job-title">Phone:</label>
-        <input type="text" class="job-title">
-        <label for="age">Age:</label>
-        <input type="number" class="age">
-        <button type="submit">Submit</button>
-    </form>
+    <div class="formdata">
+        <form class="form">
+            <label for="name-input">Name:</label>
+            <input type="text" class="name-input">
+            <label for="job-title">Phone:</label>
+            <input type="text" class="job-title">
+            <label for="age">Age:</label>
+            <input type="number" class="age">
+            <button type="submit">Submit</button>
+        </form>
 
-    <div class="data"></div>
+        <div class="data"></div>
+    </div>
 
     <script src="./assets/script.js"></script>
 </body>
