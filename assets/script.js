@@ -51,9 +51,9 @@ function displayData() {
         const jobElement = document.createElement("h2");
         const ageElement = document.createElement("h2");
 
-        nameElement.innerHTML = element.firstName;
-        jobElement.innerHTML = element.job;
-        ageElement.innerHTML = element.age;
+        nameElement.innerHTML = `Name: ${element.firstName}`;
+        jobElement.innerHTML = `Phone: ${element.job}`;
+        ageElement.innerHTML = `Age: ${element.age}`;
 
         dataDiv.append(nameElement);
         dataDiv.append(jobElement);
